@@ -1,8 +1,8 @@
 NAME := my-echo
 REPOSITORY := satokenn/$(NAME)
 TAG := 20250807
-GOOS := linux
-GOARCH := amd64
+GOOS := darwin
+GOARCH := arm64
 
 .PHONY: build test image-build image-push clean
 build:
